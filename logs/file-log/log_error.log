@@ -1,0 +1,2 @@
+2021-11-05 00:28:22.200 [http-nio-3333-exec-3] ERROR i.j.fileservice.handler.UnifiedExceptionHandler - 触发请求:[/test/file-metadata]时系统出现异常，异常类型：用户端业务异常，异常信息：文件上传失败!
+2021-11-05 00:42:47.772 [http-nio-3333-exec-1] ERROR i.j.fileservice.handler.UnifiedExceptionHandler - 触发请求:[/test/file-metadata]时系统出现异常，异常类型：用户端业务异常，异常信息：文件上传失败!

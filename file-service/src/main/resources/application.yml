@@ -1,0 +1,39 @@
+server:
+    port: 3333
+    servlet:
+        context-path: /test
+spring:
+    application:
+        name: file-service
+    datasource:
+        url: jdbc:mysql://localhost:3306/test?serverTimezone=Asia/Shanghai
+        username: root
+        password: Vanessa1020Ives
+        driver-class-name: com.mysql.cj.jdbc.Driver
+    profiles:
+        active: dev
+    redis:
+        host: 192.168.33.128
+        password: Vanessa1020Ives
+        port: 6279
+    servlet:
+        multipart:
+            max-file-size: 3072MB
+            max-request-size: 3072MB
+mybatis-plus:
+    configuration:
+        map-underscore-to-camel-case: true
+        log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl
+    type-aliases-package: icu.junyao.back.entity.**
+    mapper-locations: classpath*:icu/junyao/fileservice/mapper/*Mapper.xml
+    global-config:
+        db-config:
+            table-prefix: t_
+            id-type: assign_uuid
+
+filepath:
+    basePath: upload-files/
+
+
+
+
