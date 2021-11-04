@@ -29,7 +29,7 @@ public class FileMetadata implements Serializable {
     @ApiModelProperty(value = "原始文件名")
     private String name;
 
-    @ApiModelProperty(value = "文件大小, 单位bit")
+    @ApiModelProperty(value = "文件大小, 单位Byte")
     private Long size;
 
     @ApiModelProperty(value = "文件类型")
