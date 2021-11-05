@@ -21,6 +21,8 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 import java.time.Duration;
 
 /**
+ * 自定义序列化规则
+ *
  * @author johnson
  * @date 2021-10-02
  */

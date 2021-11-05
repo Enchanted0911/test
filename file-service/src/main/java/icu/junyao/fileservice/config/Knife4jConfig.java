@@ -12,6 +12,8 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 
 /**
+ * swagger接口文档配置
+ *
  * @author johnson
  * @date 2021-10-02
  */

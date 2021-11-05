@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 
 /**
  * <p>
- * 
+ * 文件管理
  * </p>
  *
  * @author johnson
@@ -46,7 +46,7 @@ public class FileMetadata implements Serializable {
     private LocalDateTime createdTime;
 
     @ApiModelProperty(value = "删除时间")
-    @TableField(fill = FieldFill.INSERT_UPDATE)
+    @TableField(fill = FieldFill.UPDATE)
     private LocalDateTime deletedTime;
 
     @ApiModelProperty(value = "逻辑删除 0 未删除 1 删除")

@@ -7,6 +7,8 @@ import icu.junyao.fileservice.constant.IpConstants;
 import javax.servlet.http.HttpServletRequest;
 
 /**
+ * 获取ip地址工具类
+ *
  * @author johnson
  * @since 2021-11-04
  */

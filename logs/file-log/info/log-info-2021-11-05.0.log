@@ -1,0 +1,513 @@
+2021-11-05 00:27:25.393 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Starting FileServiceApplication using Java 11.0.7 on DESKTOP-NIMU5PA with PID 6060 (D:\IdeaProjects\alpha-file\file-service\target\classes started by wu in D:\IdeaProjects\alpha-file)
+2021-11-05 00:27:25.395 [main] INFO  icu.junyao.fileservice.FileServiceApplication - The following profiles are active: dev
+2021-11-05 00:27:26.110 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-05 00:27:26.112 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-05 00:27:26.130 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-11-05 00:27:26.586 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
+2021-11-05 00:27:26.593 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+2021-11-05 00:27:26.594 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-05 00:27:26.594 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-05 00:27:26.655 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2021-11-05 00:27:26.656 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1229 ms
+2021-11-05 00:27:29.583 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+2021-11-05 00:27:29.596 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/test'
+2021-11-05 00:27:29.716 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Started FileServiceApplication in 4.729 seconds (JVM running for 5.509)
+2021-11-05 00:27:59.174 [http-nio-3333-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-05 00:27:59.175 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-05 00:27:59.176 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-11-05 00:28:21.808 [http-nio-3333-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-05 00:28:22.111 [http-nio-3333-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-05 00:29:03.216 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Starting FileServiceApplication using Java 11.0.7 on DESKTOP-NIMU5PA with PID 14024 (D:\IdeaProjects\alpha-file\file-service\target\classes started by wu in D:\IdeaProjects\alpha-file)
+2021-11-05 00:29:03.218 [main] INFO  icu.junyao.fileservice.FileServiceApplication - The following profiles are active: dev
+2021-11-05 00:29:03.820 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-05 00:29:03.822 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-05 00:29:03.840 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-11-05 00:29:04.276 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
+2021-11-05 00:29:04.283 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+2021-11-05 00:29:04.284 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-05 00:29:04.284 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-05 00:29:04.347 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2021-11-05 00:29:04.347 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1101 ms
+2021-11-05 00:29:05.661 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+2021-11-05 00:29:05.677 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/test'
+2021-11-05 00:29:05.810 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Started FileServiceApplication in 2.975 seconds (JVM running for 4.249)
+2021-11-05 00:29:49.230 [http-nio-3333-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-05 00:29:49.231 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-05 00:29:49.232 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-11-05 00:29:49.290 [http-nio-3333-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-05 00:29:49.642 [http-nio-3333-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-05 00:44:13.053 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-11-05 00:44:13.064 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-11-05 00:44:16.839 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Starting FileServiceApplication using Java 11.0.7 on DESKTOP-NIMU5PA with PID 4436 (D:\IdeaProjects\alpha-file\file-service\target\classes started by wu in D:\IdeaProjects\alpha-file)
+2021-11-05 00:44:16.842 [main] INFO  icu.junyao.fileservice.FileServiceApplication - The following profiles are active: dev
+2021-11-05 00:44:17.456 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-05 00:44:17.457 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-05 00:44:17.477 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-11-05 00:44:17.894 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
+2021-11-05 00:44:17.902 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+2021-11-05 00:44:17.902 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-05 00:44:17.902 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-05 00:44:17.963 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2021-11-05 00:44:17.963 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1091 ms
+2021-11-05 00:44:19.266 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+2021-11-05 00:44:19.282 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/test'
+2021-11-05 00:44:19.432 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Started FileServiceApplication in 3.01 seconds (JVM running for 3.839)
+2021-11-05 00:44:23.213 [http-nio-3333-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-05 00:44:23.214 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-05 00:44:23.216 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-11-05 00:44:23.270 [http-nio-3333-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-05 00:44:23.620 [http-nio-3333-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-05 00:55:48.155 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-11-05 00:55:48.164 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-11-05 00:55:52.230 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Starting FileServiceApplication using Java 11.0.7 on DESKTOP-NIMU5PA with PID 3228 (D:\IdeaProjects\alpha-file\file-service\target\classes started by wu in D:\IdeaProjects\alpha-file)
+2021-11-05 00:55:52.233 [main] INFO  icu.junyao.fileservice.FileServiceApplication - The following profiles are active: dev
+2021-11-05 00:55:52.847 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-05 00:55:52.849 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-05 00:55:52.867 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-11-05 00:55:53.280 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
+2021-11-05 00:55:53.287 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+2021-11-05 00:55:53.287 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-05 00:55:53.287 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-05 00:55:53.350 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2021-11-05 00:55:53.350 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1086 ms
+2021-11-05 00:55:54.591 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+2021-11-05 00:55:54.604 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/test'
+2021-11-05 00:55:54.731 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Started FileServiceApplication in 2.899 seconds (JVM running for 3.673)
+2021-11-05 00:56:19.373 [http-nio-3333-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-05 00:56:19.374 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-05 00:56:19.376 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-11-05 00:56:19.427 [http-nio-3333-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-05 00:56:19.788 [http-nio-3333-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-05 00:58:12.107 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-11-05 00:58:12.113 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-11-05 20:05:48.618 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Starting FileServiceApplication using Java 11.0.7 on DESKTOP-NIMU5PA with PID 9664 (D:\IdeaProjects\alpha-file\file-service\target\classes started by wu in D:\IdeaProjects\alpha-file)
+2021-11-05 20:05:48.631 [main] INFO  icu.junyao.fileservice.FileServiceApplication - The following profiles are active: dev
+2021-11-05 20:05:49.295 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-05 20:05:49.297 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-05 20:05:49.316 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-11-05 20:05:49.905 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
+2021-11-05 20:05:49.916 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+2021-11-05 20:05:49.916 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-05 20:05:49.916 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-05 20:05:49.989 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2021-11-05 20:05:49.989 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1325 ms
+2021-11-05 20:05:51.361 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+2021-11-05 20:05:51.388 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/test'
+2021-11-05 20:05:51.516 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Started FileServiceApplication in 3.316 seconds (JVM running for 4.229)
+2021-11-05 20:06:41.175 [http-nio-3333-exec-4] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-05 20:06:41.177 [http-nio-3333-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-05 20:06:41.178 [http-nio-3333-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-11-05 20:06:54.432 [http-nio-3333-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-05 20:06:54.977 [http-nio-3333-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-05 20:10:01.651 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-11-05 20:10:01.662 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-11-05 20:29:22.963 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Starting FileServiceApplication using Java 11.0.7 on DESKTOP-NIMU5PA with PID 10136 (D:\IdeaProjects\alpha-file\file-service\target\classes started by wu in D:\IdeaProjects\alpha-file)
+2021-11-05 20:29:22.965 [main] INFO  icu.junyao.fileservice.FileServiceApplication - The following profiles are active: dev
+2021-11-05 20:29:23.620 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-05 20:29:23.622 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-05 20:29:23.641 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-11-05 20:29:24.079 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
+2021-11-05 20:29:24.086 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+2021-11-05 20:29:24.086 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-05 20:29:24.086 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-05 20:29:24.150 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2021-11-05 20:29:24.150 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1154 ms
+2021-11-05 20:29:25.600 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+2021-11-05 20:29:25.614 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/test'
+2021-11-05 20:29:25.778 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Started FileServiceApplication in 3.235 seconds (JVM running for 4.099)
+2021-11-05 20:30:33.505 [http-nio-3333-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-05 20:30:33.505 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-05 20:30:33.506 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-11-05 20:31:01.379 [http-nio-3333-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-05 20:31:01.895 [http-nio-3333-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-05 20:43:15.957 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-11-05 20:43:15.967 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-11-05 20:57:54.391 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Starting FileServiceApplication using Java 11.0.7 on DESKTOP-NIMU5PA with PID 16084 (D:\IdeaProjects\alpha-file\file-service\target\classes started by wu in D:\IdeaProjects\alpha-file)
+2021-11-05 20:57:54.392 [main] INFO  icu.junyao.fileservice.FileServiceApplication - The following profiles are active: dev
+2021-11-05 20:57:55.028 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-05 20:57:55.030 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-05 20:57:55.048 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-11-05 20:57:55.475 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
+2021-11-05 20:57:55.483 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+2021-11-05 20:57:55.483 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-05 20:57:55.483 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-05 20:57:55.545 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2021-11-05 20:57:55.545 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1125 ms
+2021-11-05 20:57:56.814 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+2021-11-05 20:57:56.828 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/test'
+2021-11-05 20:57:56.978 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Started FileServiceApplication in 2.984 seconds (JVM running for 3.814)
+2021-11-05 20:58:03.049 [http-nio-3333-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-05 20:58:03.050 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-05 20:58:03.052 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-11-05 20:58:19.603 [http-nio-3333-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-05 20:58:20.077 [http-nio-3333-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-05 21:00:34.166 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-11-05 21:00:34.176 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-11-05 21:00:37.988 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Starting FileServiceApplication using Java 11.0.7 on DESKTOP-NIMU5PA with PID 7148 (D:\IdeaProjects\alpha-file\file-service\target\classes started by wu in D:\IdeaProjects\alpha-file)
+2021-11-05 21:00:37.990 [main] INFO  icu.junyao.fileservice.FileServiceApplication - The following profiles are active: dev
+2021-11-05 21:00:38.633 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-05 21:00:38.635 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-05 21:00:38.654 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-11-05 21:00:39.085 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
+2021-11-05 21:00:39.092 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+2021-11-05 21:00:39.093 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-05 21:00:39.093 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-05 21:00:39.155 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2021-11-05 21:00:39.155 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1138 ms
+2021-11-05 21:00:40.442 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+2021-11-05 21:00:40.455 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/test'
+2021-11-05 21:00:40.613 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Started FileServiceApplication in 3.024 seconds (JVM running for 3.974)
+2021-11-05 21:00:43.805 [http-nio-3333-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-05 21:00:43.807 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-05 21:00:43.809 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-11-05 21:00:43.882 [http-nio-3333-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-05 21:00:44.324 [http-nio-3333-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-05 21:01:22.100 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-11-05 21:01:22.110 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-11-05 21:01:25.777 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Starting FileServiceApplication using Java 11.0.7 on DESKTOP-NIMU5PA with PID 15368 (D:\IdeaProjects\alpha-file\file-service\target\classes started by wu in D:\IdeaProjects\alpha-file)
+2021-11-05 21:01:25.780 [main] INFO  icu.junyao.fileservice.FileServiceApplication - The following profiles are active: dev
+2021-11-05 21:01:26.462 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-05 21:01:26.463 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-05 21:01:26.485 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-11-05 21:01:26.933 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
+2021-11-05 21:01:26.943 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+2021-11-05 21:01:26.943 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-05 21:01:26.944 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-05 21:01:27.008 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2021-11-05 21:01:27.008 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1198 ms
+2021-11-05 21:01:28.424 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+2021-11-05 21:01:28.440 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/test'
+2021-11-05 21:01:28.612 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Started FileServiceApplication in 3.245 seconds (JVM running for 4.099)
+2021-11-05 21:02:29.132 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Starting FileServiceApplication using Java 11.0.7 on DESKTOP-NIMU5PA with PID 2612 (D:\IdeaProjects\alpha-file\file-service\target\classes started by wu in D:\IdeaProjects\alpha-file)
+2021-11-05 21:02:29.134 [main] INFO  icu.junyao.fileservice.FileServiceApplication - The following profiles are active: dev
+2021-11-05 21:02:29.747 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-05 21:02:29.748 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-05 21:02:29.767 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-11-05 21:02:30.186 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
+2021-11-05 21:02:30.193 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+2021-11-05 21:02:30.193 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-05 21:02:30.193 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-05 21:02:30.254 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2021-11-05 21:02:30.254 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1089 ms
+2021-11-05 21:02:31.489 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+2021-11-05 21:02:31.503 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/test'
+2021-11-05 21:02:31.655 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Started FileServiceApplication in 2.933 seconds (JVM running for 3.718)
+2021-11-05 21:03:26.646 [http-nio-3333-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-05 21:03:26.647 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-05 21:03:26.648 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-11-05 21:22:15.208 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Starting FileServiceApplication using Java 11.0.7 on DESKTOP-NIMU5PA with PID 19488 (D:\IdeaProjects\alpha-file\file-service\target\classes started by wu in D:\IdeaProjects\alpha-file)
+2021-11-05 21:22:15.210 [main] INFO  icu.junyao.fileservice.FileServiceApplication - The following profiles are active: dev
+2021-11-05 21:22:15.921 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-05 21:22:15.923 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-05 21:22:15.945 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-11-05 21:22:16.379 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
+2021-11-05 21:22:16.387 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+2021-11-05 21:22:16.387 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-05 21:22:16.388 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-05 21:22:16.453 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2021-11-05 21:22:16.453 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1203 ms
+2021-11-05 21:22:17.734 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+2021-11-05 21:22:17.749 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/test'
+2021-11-05 21:22:17.906 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Started FileServiceApplication in 3.119 seconds (JVM running for 4.003)
+2021-11-05 21:22:27.311 [http-nio-3333-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-05 21:22:27.312 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-05 21:22:27.313 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-11-05 21:22:52.880 [http-nio-3333-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-05 21:22:53.367 [http-nio-3333-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-05 21:23:28.402 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-11-05 21:23:28.412 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-11-05 21:23:32.096 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Starting FileServiceApplication using Java 11.0.7 on DESKTOP-NIMU5PA with PID 15440 (D:\IdeaProjects\alpha-file\file-service\target\classes started by wu in D:\IdeaProjects\alpha-file)
+2021-11-05 21:23:32.098 [main] INFO  icu.junyao.fileservice.FileServiceApplication - The following profiles are active: dev
+2021-11-05 21:23:32.724 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-05 21:23:32.726 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-05 21:23:32.750 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2021-11-05 21:23:33.179 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
+2021-11-05 21:23:33.186 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+2021-11-05 21:23:33.186 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-05 21:23:33.186 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-05 21:23:33.247 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2021-11-05 21:23:33.248 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1119 ms
+2021-11-05 21:23:34.477 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+2021-11-05 21:23:34.490 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/test'
+2021-11-05 21:23:34.641 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Started FileServiceApplication in 2.974 seconds (JVM running for 3.763)
+2021-11-05 21:23:50.013 [http-nio-3333-exec-2] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-05 21:23:50.014 [http-nio-3333-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-05 21:23:50.015 [http-nio-3333-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-11-05 21:25:44.649 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Starting FileServiceApplication using Java 11.0.7 on DESKTOP-NIMU5PA with PID 4372 (D:\IdeaProjects\alpha-file\file-service\target\classes started by wu in D:\IdeaProjects\alpha-file)
+2021-11-05 21:25:44.651 [main] INFO  icu.junyao.fileservice.FileServiceApplication - The following profiles are active: dev
+2021-11-05 21:25:45.255 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-05 21:25:45.257 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-05 21:25:45.277 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-11-05 21:25:45.690 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
+2021-11-05 21:25:45.697 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+2021-11-05 21:25:45.697 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-05 21:25:45.697 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-05 21:25:45.758 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2021-11-05 21:25:45.758 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1078 ms
+2021-11-05 21:25:47.000 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+2021-11-05 21:25:47.014 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/test'
+2021-11-05 21:25:47.165 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Started FileServiceApplication in 2.912 seconds (JVM running for 3.721)
+2021-11-05 21:30:03.255 [http-nio-3333-exec-4] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-05 21:30:03.256 [http-nio-3333-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-05 21:30:03.257 [http-nio-3333-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-11-05 21:30:03.329 [http-nio-3333-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-05 21:30:03.780 [http-nio-3333-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-05 21:35:44.201 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-11-05 21:35:44.211 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-11-05 21:35:48.114 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Starting FileServiceApplication using Java 11.0.7 on DESKTOP-NIMU5PA with PID 12836 (D:\IdeaProjects\alpha-file\file-service\target\classes started by wu in D:\IdeaProjects\alpha-file)
+2021-11-05 21:35:48.116 [main] INFO  icu.junyao.fileservice.FileServiceApplication - The following profiles are active: dev
+2021-11-05 21:35:48.726 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-05 21:35:48.728 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-05 21:35:48.746 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-11-05 21:35:49.157 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
+2021-11-05 21:35:49.163 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+2021-11-05 21:35:49.163 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-05 21:35:49.164 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-05 21:35:49.224 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2021-11-05 21:35:49.224 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1077 ms
+2021-11-05 21:35:50.446 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+2021-11-05 21:35:50.459 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/test'
+2021-11-05 21:35:50.607 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Started FileServiceApplication in 2.885 seconds (JVM running for 3.68)
+2021-11-05 21:40:59.457 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Starting FileServiceApplication using Java 11.0.7 on DESKTOP-NIMU5PA with PID 8356 (D:\IdeaProjects\alpha-file\file-service\target\classes started by wu in D:\IdeaProjects\alpha-file)
+2021-11-05 21:40:59.459 [main] INFO  icu.junyao.fileservice.FileServiceApplication - The following profiles are active: dev
+2021-11-05 21:41:00.067 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-05 21:41:00.069 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-05 21:41:00.090 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2021-11-05 21:41:00.506 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
+2021-11-05 21:41:00.512 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+2021-11-05 21:41:00.513 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-05 21:41:00.513 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-05 21:41:00.573 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2021-11-05 21:41:00.573 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1084 ms
+2021-11-05 21:41:01.822 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+2021-11-05 21:41:01.834 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/test'
+2021-11-05 21:41:01.985 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Started FileServiceApplication in 2.936 seconds (JVM running for 3.7)
+2021-11-05 21:41:38.570 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Starting FileServiceApplication using Java 11.0.7 on DESKTOP-NIMU5PA with PID 16784 (D:\IdeaProjects\alpha-file\file-service\target\classes started by wu in D:\IdeaProjects\alpha-file)
+2021-11-05 21:41:38.573 [main] INFO  icu.junyao.fileservice.FileServiceApplication - The following profiles are active: dev
+2021-11-05 21:41:39.263 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-05 21:41:39.265 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-05 21:41:39.286 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-11-05 21:41:39.745 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
+2021-11-05 21:41:39.752 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+2021-11-05 21:41:39.753 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-05 21:41:39.753 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-05 21:41:39.826 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2021-11-05 21:41:39.826 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1221 ms
+2021-11-05 21:41:41.289 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+2021-11-05 21:41:41.304 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/test'
+2021-11-05 21:41:41.464 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Started FileServiceApplication in 3.327 seconds (JVM running for 4.112)
+2021-11-05 21:41:52.204 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Starting FileServiceApplication using Java 11.0.7 on DESKTOP-NIMU5PA with PID 13480 (D:\IdeaProjects\alpha-file\file-service\target\classes started by wu in D:\IdeaProjects\alpha-file)
+2021-11-05 21:41:52.207 [main] INFO  icu.junyao.fileservice.FileServiceApplication - The following profiles are active: dev
+2021-11-05 21:41:52.846 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-05 21:41:52.848 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-05 21:41:52.867 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-11-05 21:41:53.284 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
+2021-11-05 21:41:53.290 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+2021-11-05 21:41:53.291 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-05 21:41:53.291 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-05 21:41:53.353 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2021-11-05 21:41:53.353 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1112 ms
+2021-11-05 21:41:54.605 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+2021-11-05 21:41:54.619 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/test'
+2021-11-05 21:41:54.767 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Started FileServiceApplication in 3.013 seconds (JVM running for 3.804)
+2021-11-05 21:42:21.904 [http-nio-3333-exec-2] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-05 21:42:21.905 [http-nio-3333-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-05 21:42:21.906 [http-nio-3333-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-11-05 21:42:53.596 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Starting FileServiceApplication using Java 11.0.7 on DESKTOP-NIMU5PA with PID 9156 (D:\IdeaProjects\alpha-file\file-service\target\classes started by wu in D:\IdeaProjects\alpha-file)
+2021-11-05 21:42:53.599 [main] INFO  icu.junyao.fileservice.FileServiceApplication - The following profiles are active: dev
+2021-11-05 21:42:54.227 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-05 21:42:54.228 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-05 21:42:54.247 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-11-05 21:42:54.680 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
+2021-11-05 21:42:54.687 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+2021-11-05 21:42:54.688 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-05 21:42:54.688 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-05 21:42:54.752 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2021-11-05 21:42:54.752 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1121 ms
+2021-11-05 21:42:56.004 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+2021-11-05 21:42:56.018 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/test'
+2021-11-05 21:42:56.175 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Started FileServiceApplication in 2.977 seconds (JVM running for 3.741)
+2021-11-05 21:42:59.769 [http-nio-3333-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-05 21:42:59.770 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-05 21:42:59.771 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-11-05 21:43:10.040 [http-nio-3333-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-05 21:43:10.462 [http-nio-3333-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-05 21:45:44.840 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-11-05 21:45:44.849 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-11-05 21:45:49.002 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Starting FileServiceApplication using Java 11.0.7 on DESKTOP-NIMU5PA with PID 14152 (D:\IdeaProjects\alpha-file\file-service\target\classes started by wu in D:\IdeaProjects\alpha-file)
+2021-11-05 21:45:49.005 [main] INFO  icu.junyao.fileservice.FileServiceApplication - The following profiles are active: dev
+2021-11-05 21:45:49.651 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-05 21:45:49.653 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-05 21:45:49.672 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-11-05 21:45:50.089 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
+2021-11-05 21:45:50.096 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+2021-11-05 21:45:50.096 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-05 21:45:50.096 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-05 21:45:50.157 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2021-11-05 21:45:50.157 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1119 ms
+2021-11-05 21:45:51.424 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+2021-11-05 21:45:51.437 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/test'
+2021-11-05 21:45:51.585 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Started FileServiceApplication in 3.259 seconds (JVM running for 4.131)
+2021-11-05 21:45:59.738 [http-nio-3333-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-05 21:45:59.740 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-05 21:45:59.743 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-11-05 21:45:59.818 [http-nio-3333-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-05 21:46:00.299 [http-nio-3333-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-05 21:46:13.724 [http-nio-3333-exec-2] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----url为D:\IdeaProjects\alpha-file\upload-files/20211105\04232a58460a49c597e42c63cc577d81.jpg
+2021-11-05 21:46:13.726 [http-nio-3333-exec-2] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----url为D:\IdeaProjects\alpha-file\upload-files/20211105\04232a58460a49c597e42c63cc577d81.jpg
+2021-11-05 21:47:43.243 [http-nio-3333-exec-3] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----url为D:\IdeaProjects\alpha-file\upload-files/20211105\04232a58460a49c597e42c63cc577d81.jpg
+2021-11-05 21:47:51.094 [http-nio-3333-exec-3] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----url为D:\IdeaProjects\alpha-file\upload-files/20211105\04232a58460a49c597e42c63cc577d81.jpg
+2021-11-05 21:49:58.391 [http-nio-3333-exec-4] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----url为D:\IdeaProjects\alpha-file\upload-files/20211105\04232a58460a49c597e42c63cc577d81.jpg
+2021-11-05 21:51:29.805 [http-nio-3333-exec-4] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----url为D:\IdeaProjects\alpha-file\upload-files/20211105\04232a58460a49c597e42c63cc577d81.jpg
+2021-11-05 21:52:37.730 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-11-05 21:52:37.740 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-11-05 21:53:03.450 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Starting FileServiceApplication using Java 11.0.7 on DESKTOP-NIMU5PA with PID 17316 (D:\IdeaProjects\alpha-file\file-service\target\classes started by wu in D:\IdeaProjects\alpha-file)
+2021-11-05 21:53:03.452 [main] INFO  icu.junyao.fileservice.FileServiceApplication - The following profiles are active: dev
+2021-11-05 21:53:04.098 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-05 21:53:04.100 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-05 21:53:04.119 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-11-05 21:53:04.537 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
+2021-11-05 21:53:04.546 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+2021-11-05 21:53:04.547 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-05 21:53:04.547 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-05 21:53:04.608 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2021-11-05 21:53:04.608 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1118 ms
+2021-11-05 21:53:05.862 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+2021-11-05 21:53:05.875 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/test'
+2021-11-05 21:53:06.023 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Started FileServiceApplication in 2.969 seconds (JVM running for 3.728)
+2021-11-05 21:53:12.661 [http-nio-3333-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-05 21:53:12.663 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-05 21:53:12.664 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-11-05 21:53:12.736 [http-nio-3333-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-05 21:53:13.178 [http-nio-3333-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-05 21:53:13.229 [http-nio-3333-exec-1] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----url为D:\IdeaProjects\alpha-file\upload-files/20211105\04232a58460a49c597e42c63cc577d81.jpg
+2021-11-05 21:53:25.022 [http-nio-3333-exec-1] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----url为D:\IdeaProjects\alpha-file\upload-files/20211105\04232a58460a49c597e42c63cc577d81.jpg
+2021-11-05 21:54:01.692 [http-nio-3333-exec-2] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----url为D:\IdeaProjects\alpha-file\upload-files/20211105\04232a58460a49c597e42c63cc577d81.jpg
+2021-11-05 21:54:06.635 [http-nio-3333-exec-2] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----url为D:\IdeaProjects\alpha-file\upload-files/20211105\04232a58460a49c597e42c63cc577d81.jpg
+2021-11-05 21:54:20.920 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-11-05 21:54:20.928 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-11-05 21:57:52.685 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Starting FileServiceApplication using Java 11.0.7 on DESKTOP-NIMU5PA with PID 12396 (D:\IdeaProjects\alpha-file\file-service\target\classes started by wu in D:\IdeaProjects\alpha-file)
+2021-11-05 21:57:52.687 [main] INFO  icu.junyao.fileservice.FileServiceApplication - The following profiles are active: dev
+2021-11-05 21:57:53.311 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-05 21:57:53.313 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-05 21:57:53.331 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-11-05 21:57:53.744 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
+2021-11-05 21:57:53.750 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+2021-11-05 21:57:53.751 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-05 21:57:53.751 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-05 21:57:53.812 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2021-11-05 21:57:53.812 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1097 ms
+2021-11-05 21:57:55.044 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+2021-11-05 21:57:55.057 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/test'
+2021-11-05 21:57:55.206 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Started FileServiceApplication in 2.927 seconds (JVM running for 3.851)
+2021-11-05 21:58:00.697 [http-nio-3333-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-05 21:58:00.699 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-05 21:58:00.701 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-11-05 21:58:00.764 [http-nio-3333-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-05 21:58:01.164 [http-nio-3333-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-05 21:58:01.215 [http-nio-3333-exec-1] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----url为D:\IdeaProjects\alpha-file\upload-files/20211105\04232a58460a49c597e42c63cc577d81.jpg
+2021-11-05 21:58:01.217 [http-nio-3333-exec-1] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----url为D:\IdeaProjects\alpha-file\upload-files/20211105\04232a58460a49c597e42c63cc577d81.jpg
+2021-11-05 21:59:42.269 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-11-05 21:59:42.278 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-11-05 22:02:26.751 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Starting FileServiceApplication using Java 11.0.7 on DESKTOP-NIMU5PA with PID 4676 (D:\IdeaProjects\alpha-file\file-service\target\classes started by wu in D:\IdeaProjects\alpha-file)
+2021-11-05 22:02:26.753 [main] INFO  icu.junyao.fileservice.FileServiceApplication - The following profiles are active: dev
+2021-11-05 22:02:27.370 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-05 22:02:27.372 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-05 22:02:27.391 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-11-05 22:02:27.807 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
+2021-11-05 22:02:27.813 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+2021-11-05 22:02:27.814 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-05 22:02:27.814 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-05 22:02:27.875 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2021-11-05 22:02:27.875 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1092 ms
+2021-11-05 22:02:29.139 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+2021-11-05 22:02:29.155 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/test'
+2021-11-05 22:02:29.318 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Started FileServiceApplication in 2.963 seconds (JVM running for 3.865)
+2021-11-05 22:03:09.200 [http-nio-3333-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-05 22:03:09.202 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-05 22:03:09.204 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-11-05 22:03:09.279 [http-nio-3333-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-05 22:03:09.717 [http-nio-3333-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-05 22:03:09.766 [http-nio-3333-exec-1] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----url为D:\IdeaProjects\alpha-file\upload-files/20211105\04232a58460a49c597e42c63cc577d81.jpg
+2021-11-05 22:03:09.768 [http-nio-3333-exec-1] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----url为D:\IdeaProjects\alpha-file\upload-files/20211105\04232a58460a49c597e42c63cc577d81.jpg
+2021-11-05 22:04:22.313 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-11-05 22:04:22.323 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-11-05 22:04:25.882 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Starting FileServiceApplication using Java 11.0.7 on DESKTOP-NIMU5PA with PID 4652 (D:\IdeaProjects\alpha-file\file-service\target\classes started by wu in D:\IdeaProjects\alpha-file)
+2021-11-05 22:04:25.884 [main] INFO  icu.junyao.fileservice.FileServiceApplication - The following profiles are active: dev
+2021-11-05 22:04:26.493 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-05 22:04:26.495 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-05 22:04:26.513 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-11-05 22:04:26.930 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
+2021-11-05 22:04:26.937 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+2021-11-05 22:04:26.938 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-05 22:04:26.938 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-05 22:04:26.998 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2021-11-05 22:04:26.998 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1087 ms
+2021-11-05 22:04:28.229 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+2021-11-05 22:04:28.243 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/test'
+2021-11-05 22:04:28.391 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Started FileServiceApplication in 2.902 seconds (JVM running for 3.796)
+2021-11-05 22:04:38.244 [http-nio-3333-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-05 22:04:38.245 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-05 22:04:38.247 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-11-05 22:04:38.316 [http-nio-3333-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-05 22:04:38.730 [http-nio-3333-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-05 22:04:38.778 [http-nio-3333-exec-1] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----url为D:\IdeaProjects\alpha-file\upload-files/20211105\04232a58460a49c597e42c63cc577d81.jpg
+2021-11-05 22:04:38.780 [http-nio-3333-exec-1] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----url为D:\IdeaProjects\alpha-file\upload-files/20211105\04232a58460a49c597e42c63cc577d81.jpg
+2021-11-05 22:05:21.819 [http-nio-3333-exec-2] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----url为D:\IdeaProjects\alpha-file\upload-files/20211105\04232a58460a49c597e42c63cc577d81.jpg
+2021-11-05 22:05:21.820 [http-nio-3333-exec-2] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----url为D:\IdeaProjects\alpha-file\upload-files/20211105\04232a58460a49c597e42c63cc577d81.jpg
+2021-11-05 22:07:37.533 [http-nio-3333-exec-7] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----url为D:\IdeaProjects\alpha-file\upload-files/20211105\04232a58460a49c597e42c63cc577d81.jpg
+2021-11-05 22:07:37.534 [http-nio-3333-exec-7] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----url为D:\IdeaProjects\alpha-file\upload-files/20211105\04232a58460a49c597e42c63cc577d81.jpg
+2021-11-05 22:20:59.490 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-11-05 22:20:59.500 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-11-05 22:21:03.098 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Starting FileServiceApplication using Java 11.0.7 on DESKTOP-NIMU5PA with PID 21072 (D:\IdeaProjects\alpha-file\file-service\target\classes started by wu in D:\IdeaProjects\alpha-file)
+2021-11-05 22:21:03.100 [main] INFO  icu.junyao.fileservice.FileServiceApplication - The following profiles are active: dev
+2021-11-05 22:21:03.734 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-05 22:21:03.736 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-05 22:21:03.756 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-11-05 22:21:04.185 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
+2021-11-05 22:21:04.192 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+2021-11-05 22:21:04.193 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-05 22:21:04.193 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-05 22:21:04.254 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2021-11-05 22:21:04.254 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1124 ms
+2021-11-05 22:21:05.555 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+2021-11-05 22:21:05.569 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/test'
+2021-11-05 22:21:05.721 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Started FileServiceApplication in 3.039 seconds (JVM running for 3.899)
+2021-11-05 22:21:10.456 [http-nio-3333-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-05 22:21:10.457 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-05 22:21:10.458 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-11-05 22:21:10.500 [http-nio-3333-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-05 22:21:10.773 [http-nio-3333-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-05 22:21:10.812 [http-nio-3333-exec-1] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----url为D:\IdeaProjects\alpha-file\upload-files/20211105\04232a58460a49c597e42c63cc577d81.jpg
+2021-11-05 22:21:10.814 [http-nio-3333-exec-1] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----url为D:\IdeaProjects\alpha-file\upload-files/20211105\04232a58460a49c597e42c63cc577d81.jpg
+2021-11-05 22:23:08.486 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-11-05 22:23:08.497 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-11-05 22:23:12.251 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Starting FileServiceApplication using Java 11.0.7 on DESKTOP-NIMU5PA with PID 6780 (D:\IdeaProjects\alpha-file\file-service\target\classes started by wu in D:\IdeaProjects\alpha-file)
+2021-11-05 22:23:12.253 [main] INFO  icu.junyao.fileservice.FileServiceApplication - The following profiles are active: dev
+2021-11-05 22:23:12.888 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-05 22:23:12.890 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-05 22:23:12.909 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-11-05 22:23:13.351 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
+2021-11-05 22:23:13.358 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+2021-11-05 22:23:13.358 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-05 22:23:13.358 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-05 22:23:13.422 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2021-11-05 22:23:13.422 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1140 ms
+2021-11-05 22:23:14.708 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+2021-11-05 22:23:14.721 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/test'
+2021-11-05 22:23:14.876 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Started FileServiceApplication in 3.034 seconds (JVM running for 3.914)
+2021-11-05 23:13:34.265 [http-nio-3333-exec-5] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-05 23:13:34.266 [http-nio-3333-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-05 23:13:34.268 [http-nio-3333-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-11-05 23:28:33.561 [http-nio-3333-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-05 23:28:34.001 [http-nio-3333-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-05 23:28:34.146 [http-nio-3333-exec-10] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件开始上传-----id为d3cd41222b494d4e9b83246a66fa94b5
+2021-11-05 23:28:34.149 [http-nio-3333-exec-10] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件上传结束-----id为d3cd41222b494d4e9b83246a66fa94b5
+2021-11-05 23:29:28.869 [http-nio-3333-exec-4] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件开始上传-----id为a8665f1557d84343873ed6b4ad93bb9e
+2021-11-05 23:29:28.871 [http-nio-3333-exec-4] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件上传结束-----id为a8665f1557d84343873ed6b4ad93bb9e
+2021-11-05 23:48:05.251 [http-nio-3333-exec-3] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件开始上传-----id为0d304a908fea4c7d8f67c466ba4e56cb
+2021-11-05 23:48:05.253 [http-nio-3333-exec-3] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件上传结束-----id为0d304a908fea4c7d8f67c466ba4e56cb
+2021-11-05 23:48:35.743 [http-nio-3333-exec-6] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件开始上传-----id为f434a9371f7a4728b1f8e5c5ff319112
+2021-11-05 23:48:35.745 [http-nio-3333-exec-6] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件上传结束-----id为f434a9371f7a4728b1f8e5c5ff319112
+2021-11-05 23:50:23.403 [http-nio-3333-exec-8] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件开始上传-----id为6bf5fe34a9bd48518fe7405719641466
+2021-11-05 23:50:23.405 [http-nio-3333-exec-8] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件上传结束-----id为6bf5fe34a9bd48518fe7405719641466

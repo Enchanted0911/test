@@ -11,4 +11,5 @@ public interface CommonConstants {
     String EMPTY = "";
     String HYPHEN = "-";
     String DATE_PATTERN = "yyyyMMdd";
+    String USER_DIR = "user.dir";
 }

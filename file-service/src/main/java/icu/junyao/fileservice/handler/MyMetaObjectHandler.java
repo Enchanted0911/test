@@ -7,6 +7,8 @@ import org.springframework.stereotype.Component;
 import java.time.LocalDateTime;
 
 /**
+ * MP自动生成创建时间等信息
+ *
  * @author johnson
  * @date 2021-10-02
  */
@@ -20,7 +22,6 @@ public class MyMetaObjectHandler implements MetaObjectHandler {
     @Override
     public void insertFill(MetaObject metaObject) {
         this.strictInsertFill(metaObject, "createdTime", LocalDateTime::now, LocalDateTime.class);
-        this.strictUpdateFill(metaObject, "deletedTime", LocalDateTime::now, LocalDateTime.class);
     }
 
     /**

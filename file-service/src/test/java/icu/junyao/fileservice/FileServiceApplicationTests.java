@@ -9,4 +9,9 @@ class FileServiceApplicationTests {
     @Test
     void contextLoads() {
     }
+
+    @Test
+    void location() {
+        System.out.println(System.getProperty("user.dir"));
+    }
 }

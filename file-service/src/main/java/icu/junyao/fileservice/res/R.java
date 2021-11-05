@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 import java.io.Serializable;
 
 /**
- * 返回
+ * 统一返回结果类型
  *
  * @author johnson
  * @date 2021-10-02

@@ -2,6 +2,7 @@ package icu.junyao.fileservice.service;
 
 import icu.junyao.fileservice.entity.FileMetadata;
 import com.baomidou.mybatisplus.extension.service.IService;
+import icu.junyao.fileservice.res.FileMetadataRes;
 import org.springframework.web.multipart.MultipartFile;
 
 /**
@@ -22,4 +23,12 @@ public interface FileMetadataService extends IService<FileMetadata> {
      * @return 文件唯一标识UUID
      */
     String uploadFile(MultipartFile file, String ip);
+
+    /**
+     * 通过文件id(UUID) 获取文件元数据
+     *
+     * @param id 文件id
+     * @return {@link FileMetadataRes}
+     */
+    FileMetadataRes gainFileMetadata(String id);
 }

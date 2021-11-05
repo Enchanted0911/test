@@ -26,7 +26,11 @@ public enum BusinessResponseEnum implements BusinessExceptionAssert {
     /**
      * 文件名为空, 请正确上传文件!
      */
-    FILE_NAME_EMPTY("410", "文件名为空, 请正确上传文件!");
+    FILE_NAME_EMPTY("410", "文件名为空, 请正确上传文件!"),
+    /**
+     * 文件不存在!
+     */
+    FILE_NOT_EXIST("410", "文件不存在!");
 
     private final String code;
 

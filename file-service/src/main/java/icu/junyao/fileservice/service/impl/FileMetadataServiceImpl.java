@@ -1,13 +1,17 @@
 package icu.junyao.fileservice.service.impl;
 
+import cn.hutool.core.util.StrUtil;
 import icu.junyao.fileservice.constant.CommonConstants;
 import icu.junyao.fileservice.entity.FileMetadata;
 import icu.junyao.fileservice.enums.BusinessResponseEnum;
 import icu.junyao.fileservice.exception.BusinessException;
 import icu.junyao.fileservice.exception.assertion.BusinessExceptionAssert;
 import icu.junyao.fileservice.mapper.FileMetadataMapper;
+import icu.junyao.fileservice.res.FileMetadataRes;
 import icu.junyao.fileservice.service.FileMetadataService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -29,6 +33,7 @@ import java.util.UUID;
  * @author johnson
  * @since 2021-11-04
  */
+@Slf4j
 @Service
 public class FileMetadataServiceImpl extends ServiceImpl<FileMetadataMapper, FileMetadata> implements FileMetadataService {
 
@@ -50,8 +55,9 @@ public class FileMetadataServiceImpl extends ServiceImpl<FileMetadataMapper, Fil
         String originName = file.getOriginalFilename();
 
         // 预防NPE
-        BusinessResponseEnum.FILE_NAME_EMPTY.assertNotNull(originName);
-
+        if (StrUtil.isEmpty(originName)) {
+            throw BusinessResponseEnum.FILE_NAME_EMPTY.newException();
+        }
         String suffix = originName.substring(originName.lastIndexOf(CommonConstants.DOT));
         String newFileName = fileMetadata.getId() + suffix;
         File upLoadFile = new File(fileMetadata.getUrl(), newFileName);
@@ -63,12 +69,29 @@ public class FileMetadataServiceImpl extends ServiceImpl<FileMetadataMapper, Fil
 
         // 开始上传
         try {
+            log.info("文件开始上传-----id为{}", fileMetadata.getId());
             file.transferTo(upLoadFile);
+            log.info("文件上传结束-----id为{}", fileMetadata.getId());
         } catch (IOException e) {
             throw BusinessResponseEnum.FILE_UPLOAD_FILED.newException();
         }
 
         return fileMetadata.getId();
+    }
+
+    @Override
+    public FileMetadataRes gainFileMetadata(String id) {
+        // 获取文件, 判空
+        FileMetadata fileMetadata = super.getById(id);
+        if (fileMetadata == null) {
+            throw BusinessResponseEnum.FILE_NOT_EXIST.newException();
+        }
+
+        // 属性转移
+        FileMetadataRes fileMetadataRes = new FileMetadataRes();
+        BeanUtils.copyProperties(fileMetadata, fileMetadataRes);
+
+        return fileMetadataRes;
     }
 
 
@@ -91,7 +114,8 @@ public class FileMetadataServiceImpl extends ServiceImpl<FileMetadataMapper, Fil
         // 设置保存地址
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern(CommonConstants.DATE_PATTERN);
         String datePath = dateTimeFormatter.format(LocalDate.now());
-        String filePath = basePath + datePath;
+        String projectPath = System.getProperty(CommonConstants.USER_DIR);
+        String filePath = projectPath + File.separatorChar + basePath + datePath;
 
         // 属性设置
         FileMetadata fileMetadata = new FileMetadata();

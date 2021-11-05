@@ -1,82 +1,165 @@
-2021-11-05 00:27:25.393 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Starting FileServiceApplication using Java 11.0.7 on DESKTOP-NIMU5PA with PID 6060 (D:\IdeaProjects\alpha-file\file-service\target\classes started by wu in D:\IdeaProjects\alpha-file)
-2021-11-05 00:27:25.395 [main] INFO  icu.junyao.fileservice.FileServiceApplication - The following profiles are active: dev
-2021-11-05 00:27:26.110 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-2021-11-05 00:27:26.112 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2021-11-05 00:27:26.130 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
-2021-11-05 00:27:26.586 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
-2021-11-05 00:27:26.593 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
-2021-11-05 00:27:26.594 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-11-05 00:27:26.594 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
-2021-11-05 00:27:26.655 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
-2021-11-05 00:27:26.656 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1229 ms
-2021-11-05 00:27:29.583 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
-2021-11-05 00:27:29.596 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/test'
-2021-11-05 00:27:29.716 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Started FileServiceApplication in 4.729 seconds (JVM running for 5.509)
-2021-11-05 00:27:59.174 [http-nio-3333-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-11-05 00:27:59.175 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2021-11-05 00:27:59.176 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-2021-11-05 00:28:21.808 [http-nio-3333-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-11-05 00:28:22.111 [http-nio-3333-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-11-05 00:29:03.216 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Starting FileServiceApplication using Java 11.0.7 on DESKTOP-NIMU5PA with PID 14024 (D:\IdeaProjects\alpha-file\file-service\target\classes started by wu in D:\IdeaProjects\alpha-file)
-2021-11-05 00:29:03.218 [main] INFO  icu.junyao.fileservice.FileServiceApplication - The following profiles are active: dev
-2021-11-05 00:29:03.820 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-2021-11-05 00:29:03.822 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2021-11-05 00:29:03.840 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
-2021-11-05 00:29:04.276 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
-2021-11-05 00:29:04.283 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
-2021-11-05 00:29:04.284 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-11-05 00:29:04.284 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
-2021-11-05 00:29:04.347 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
-2021-11-05 00:29:04.347 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1101 ms
-2021-11-05 00:29:05.661 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
-2021-11-05 00:29:05.677 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/test'
-2021-11-05 00:29:05.810 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Started FileServiceApplication in 2.975 seconds (JVM running for 4.249)
-2021-11-05 00:29:49.230 [http-nio-3333-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-11-05 00:29:49.231 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2021-11-05 00:29:49.232 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-2021-11-05 00:29:49.290 [http-nio-3333-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-11-05 00:29:49.642 [http-nio-3333-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-11-05 00:44:13.053 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2021-11-05 00:44:13.064 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2021-11-05 00:44:16.839 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Starting FileServiceApplication using Java 11.0.7 on DESKTOP-NIMU5PA with PID 4436 (D:\IdeaProjects\alpha-file\file-service\target\classes started by wu in D:\IdeaProjects\alpha-file)
-2021-11-05 00:44:16.842 [main] INFO  icu.junyao.fileservice.FileServiceApplication - The following profiles are active: dev
-2021-11-05 00:44:17.456 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-2021-11-05 00:44:17.457 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2021-11-05 00:44:17.477 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
-2021-11-05 00:44:17.894 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
-2021-11-05 00:44:17.902 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
-2021-11-05 00:44:17.902 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-11-05 00:44:17.902 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
-2021-11-05 00:44:17.963 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
-2021-11-05 00:44:17.963 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1091 ms
-2021-11-05 00:44:19.266 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
-2021-11-05 00:44:19.282 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/test'
-2021-11-05 00:44:19.432 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Started FileServiceApplication in 3.01 seconds (JVM running for 3.839)
-2021-11-05 00:44:23.213 [http-nio-3333-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-11-05 00:44:23.214 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2021-11-05 00:44:23.216 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-2021-11-05 00:44:23.270 [http-nio-3333-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-11-05 00:44:23.620 [http-nio-3333-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-11-05 00:55:48.155 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2021-11-05 00:55:48.164 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2021-11-05 00:55:52.230 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Starting FileServiceApplication using Java 11.0.7 on DESKTOP-NIMU5PA with PID 3228 (D:\IdeaProjects\alpha-file\file-service\target\classes started by wu in D:\IdeaProjects\alpha-file)
-2021-11-05 00:55:52.233 [main] INFO  icu.junyao.fileservice.FileServiceApplication - The following profiles are active: dev
-2021-11-05 00:55:52.847 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-2021-11-05 00:55:52.849 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2021-11-05 00:55:52.867 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
-2021-11-05 00:55:53.280 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
-2021-11-05 00:55:53.287 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
-2021-11-05 00:55:53.287 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-11-05 00:55:53.287 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
-2021-11-05 00:55:53.350 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
-2021-11-05 00:55:53.350 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1086 ms
-2021-11-05 00:55:54.591 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
-2021-11-05 00:55:54.604 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/test'
-2021-11-05 00:55:54.731 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Started FileServiceApplication in 2.899 seconds (JVM running for 3.673)
-2021-11-05 00:56:19.373 [http-nio-3333-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-11-05 00:56:19.374 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2021-11-05 00:56:19.376 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
-2021-11-05 00:56:19.427 [http-nio-3333-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-11-05 00:56:19.788 [http-nio-3333-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-11-05 00:58:12.107 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2021-11-05 00:58:12.113 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-11-06 00:00:45.889 [http-nio-3333-exec-4] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件开始上传-----id为aa79f8f1217b4e1eb215b8775814697b
+2021-11-06 00:00:45.910 [http-nio-3333-exec-4] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件上传结束-----id为aa79f8f1217b4e1eb215b8775814697b
+2021-11-06 00:01:07.586 [http-nio-3333-exec-3] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件开始上传-----id为eb87fb3c146046239e677048d49f29e1
+2021-11-06 00:01:07.587 [http-nio-3333-exec-3] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件上传结束-----id为eb87fb3c146046239e677048d49f29e1
+2021-11-06 00:02:35.097 [http-nio-3333-exec-6] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件开始上传-----id为5de8e4bee8a44a388f77375e3bd28a82
+2021-11-06 00:02:35.099 [http-nio-3333-exec-6] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件上传结束-----id为5de8e4bee8a44a388f77375e3bd28a82
+2021-11-06 00:03:21.811 [http-nio-3333-exec-8] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件开始上传-----id为2a01550daafa4d19a9140237ec4598e4
+2021-11-06 00:03:21.812 [http-nio-3333-exec-8] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件上传结束-----id为2a01550daafa4d19a9140237ec4598e4
+2021-11-06 00:03:40.689 [http-nio-3333-exec-10] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件开始上传-----id为05e950ae63464087ada14bf3d72c730a
+2021-11-06 00:03:40.691 [http-nio-3333-exec-10] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件上传结束-----id为05e950ae63464087ada14bf3d72c730a
+2021-11-06 00:11:12.245 [http-nio-3333-exec-4] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件开始上传-----id为b3817829c03a44abbe950653ad6afdd4
+2021-11-06 00:11:12.246 [http-nio-3333-exec-4] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件上传结束-----id为b3817829c03a44abbe950653ad6afdd4
+2021-11-06 00:13:34.576 [http-nio-3333-exec-3] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件开始上传-----id为8cb7358969074ac3a8f39be9606edbf5
+2021-11-06 00:13:34.578 [http-nio-3333-exec-3] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件上传结束-----id为8cb7358969074ac3a8f39be9606edbf5
+2021-11-06 00:14:00.156 [http-nio-3333-exec-6] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件开始上传-----id为6a14da6c8faa44e2bc81eb1497c8c1bb
+2021-11-06 00:14:00.158 [http-nio-3333-exec-6] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件上传结束-----id为6a14da6c8faa44e2bc81eb1497c8c1bb
+2021-11-06 00:15:08.560 [http-nio-3333-exec-8] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件开始上传-----id为7a5b32a9adee48a49424acf94fe5bd80
+2021-11-06 00:15:08.562 [http-nio-3333-exec-8] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件上传结束-----id为7a5b32a9adee48a49424acf94fe5bd80
+2021-11-06 00:15:29.814 [http-nio-3333-exec-10] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件开始上传-----id为22a98be9abd94cb29644b2dc2bbb1aac
+2021-11-06 00:15:29.815 [http-nio-3333-exec-10] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件上传结束-----id为22a98be9abd94cb29644b2dc2bbb1aac
+2021-11-06 00:18:35.142 [http-nio-3333-exec-4] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件开始上传-----id为5f136ddbd51d425ca07866ce526f07de
+2021-11-06 00:18:35.143 [http-nio-3333-exec-4] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件上传结束-----id为5f136ddbd51d425ca07866ce526f07de
+2021-11-06 00:20:25.919 [http-nio-3333-exec-3] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件开始上传-----id为f05234c879da46cd9f2ea529b221601e
+2021-11-06 00:20:25.920 [http-nio-3333-exec-3] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件上传结束-----id为f05234c879da46cd9f2ea529b221601e
+2021-11-06 00:23:38.093 [http-nio-3333-exec-6] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件开始上传-----id为c4d657c89d1340b99ebffb3c942801b5
+2021-11-06 00:23:38.095 [http-nio-3333-exec-6] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件上传结束-----id为c4d657c89d1340b99ebffb3c942801b5
+2021-11-06 00:24:14.540 [http-nio-3333-exec-8] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件开始上传-----id为eb8d23f893e54527aafadb36e712fc26
+2021-11-06 00:24:14.541 [http-nio-3333-exec-8] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件上传结束-----id为eb8d23f893e54527aafadb36e712fc26
+2021-11-06 00:27:55.781 [http-nio-3333-exec-10] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件开始上传-----id为38adfba3a45f48c597d48a3d18f8fbaf
+2021-11-06 00:27:55.782 [http-nio-3333-exec-10] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件上传结束-----id为38adfba3a45f48c597d48a3d18f8fbaf
+2021-11-06 00:31:11.851 [http-nio-3333-exec-4] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件开始上传-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 00:31:11.853 [http-nio-3333-exec-4] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件上传结束-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 00:50:09.302 [http-nio-3333-exec-2] INFO  org.apache.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the request target [/test/file-metadata/file\83e2d1b0faae4c74a3b8590f76898dbb ]. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:502)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-11-06 00:51:08.641 [http-nio-3333-exec-6] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 00:51:08.642 [http-nio-3333-exec-6] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 00:53:15.985 [http-nio-3333-exec-8] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件开始上传-----id为c6c0ed15090b4df99f5e284c0a8a704a
+2021-11-06 00:53:15.986 [http-nio-3333-exec-8] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件上传结束-----id为c6c0ed15090b4df99f5e284c0a8a704a
+2021-11-06 00:53:23.137 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-11-06 00:53:23.146 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-11-06 00:53:50.234 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Starting FileServiceApplication using Java 11.0.7 on DESKTOP-NIMU5PA with PID 15508 (D:\IdeaProjects\alpha-file\file-service\target\classes started by wu in D:\IdeaProjects\alpha-file)
+2021-11-06 00:53:50.237 [main] INFO  icu.junyao.fileservice.FileServiceApplication - The following profiles are active: dev
+2021-11-06 00:53:50.986 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-06 00:53:50.988 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-06 00:53:51.007 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-11-06 00:53:51.597 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
+2021-11-06 00:53:51.605 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+2021-11-06 00:53:51.605 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-06 00:53:51.606 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-06 00:53:51.684 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2021-11-06 00:53:51.685 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1422 ms
+2021-11-06 00:53:52.960 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+2021-11-06 00:53:52.974 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/test'
+2021-11-06 00:53:53.126 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Started FileServiceApplication in 3.402 seconds (JVM running for 4.286)
+2021-11-06 00:54:03.821 [http-nio-3333-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-06 00:54:03.822 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-06 00:54:03.823 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-11-06 00:54:03.860 [http-nio-3333-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-06 00:54:04.154 [http-nio-3333-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-06 00:54:04.217 [http-nio-3333-exec-1] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件开始上传-----id为1e9abd28a31f462d810e145e502415e2
+2021-11-06 00:54:04.219 [http-nio-3333-exec-1] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件上传结束-----id为1e9abd28a31f462d810e145e502415e2
+2021-11-06 01:01:04.925 [http-nio-3333-exec-3] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 01:01:04.926 [http-nio-3333-exec-3] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 01:02:37.622 [http-nio-3333-exec-5] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 01:02:37.623 [http-nio-3333-exec-5] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 01:10:29.566 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-11-06 01:10:29.576 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-11-06 01:10:33.688 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Starting FileServiceApplication using Java 11.0.7 on DESKTOP-NIMU5PA with PID 1828 (D:\IdeaProjects\alpha-file\file-service\target\classes started by wu in D:\IdeaProjects\alpha-file)
+2021-11-06 01:10:33.692 [main] INFO  icu.junyao.fileservice.FileServiceApplication - The following profiles are active: dev
+2021-11-06 01:10:34.450 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-06 01:10:34.452 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-06 01:10:34.475 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2021-11-06 01:10:34.990 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
+2021-11-06 01:10:34.998 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+2021-11-06 01:10:34.999 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-06 01:10:34.999 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-06 01:10:35.074 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2021-11-06 01:10:35.075 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1344 ms
+2021-11-06 01:10:36.494 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+2021-11-06 01:10:36.507 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/test'
+2021-11-06 01:10:36.671 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Started FileServiceApplication in 3.455 seconds (JVM running for 4.243)
+2021-11-06 01:18:51.314 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Starting FileServiceApplication using Java 11.0.7 on DESKTOP-NIMU5PA with PID 7780 (D:\IdeaProjects\alpha-file\file-service\target\classes started by wu in D:\IdeaProjects\alpha-file)
+2021-11-06 01:18:51.317 [main] INFO  icu.junyao.fileservice.FileServiceApplication - The following profiles are active: dev
+2021-11-06 01:18:52.019 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-06 01:18:52.021 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-06 01:18:52.044 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-11-06 01:18:52.495 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
+2021-11-06 01:18:52.502 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+2021-11-06 01:18:52.502 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-06 01:18:52.502 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-06 01:18:52.569 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2021-11-06 01:18:52.569 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1215 ms
+2021-11-06 01:18:53.941 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+2021-11-06 01:18:53.957 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/test'
+2021-11-06 01:18:54.292 [main] INFO  icu.junyao.fileservice.FileServiceApplication - Started FileServiceApplication in 3.487 seconds (JVM running for 4.292)
+2021-11-06 01:19:04.329 [http-nio-3333-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-06 01:19:04.329 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-11-06 01:19:04.330 [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2021-11-06 01:20:55.999 [http-nio-3333-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-11-06 01:20:56.277 [http-nio-3333-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-11-06 01:20:56.326 [http-nio-3333-exec-3] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 01:20:56.327 [http-nio-3333-exec-3] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 01:23:54.722 [http-nio-3333-exec-5] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 01:23:54.723 [http-nio-3333-exec-5] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 01:24:08.317 [http-nio-3333-exec-7] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件开始上传-----id为bf255d138ef640ceb40e0165875194c8
+2021-11-06 01:24:08.319 [http-nio-3333-exec-7] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件上传结束-----id为bf255d138ef640ceb40e0165875194c8
+2021-11-06 01:24:51.531 [http-nio-3333-exec-8] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 01:24:51.533 [http-nio-3333-exec-8] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 01:25:08.003 [http-nio-3333-exec-9] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 01:25:08.005 [http-nio-3333-exec-9] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 01:32:50.216 [http-nio-3333-exec-2] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 01:32:50.217 [http-nio-3333-exec-2] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 01:34:03.879 [http-nio-3333-exec-4] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 01:34:03.880 [http-nio-3333-exec-4] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 01:39:09.669 [http-nio-3333-exec-6] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 01:39:09.671 [http-nio-3333-exec-6] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 01:39:34.614 [http-nio-3333-exec-8] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 01:39:34.615 [http-nio-3333-exec-8] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 01:42:25.823 [http-nio-3333-exec-1] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件开始上传-----id为abc1dc7895864eac9e0620c6661fd539
+2021-11-06 01:42:25.825 [http-nio-3333-exec-1] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件上传结束-----id为abc1dc7895864eac9e0620c6661fd539
+2021-11-06 01:54:54.579 [http-nio-3333-exec-6] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件开始上传-----id为4333235225384fdb83e7396c80ba3569
+2021-11-06 01:54:54.581 [http-nio-3333-exec-6] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件上传结束-----id为4333235225384fdb83e7396c80ba3569
+2021-11-06 02:07:04.590 [http-nio-3333-exec-10] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 02:07:04.591 [http-nio-3333-exec-10] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 02:07:08.403 [http-nio-3333-exec-2] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 02:07:08.403 [http-nio-3333-exec-2] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 02:07:45.415 [http-nio-3333-exec-4] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 02:07:45.416 [http-nio-3333-exec-4] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 02:08:34.544 [http-nio-3333-exec-6] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 02:08:34.545 [http-nio-3333-exec-6] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 02:11:43.207 [http-nio-3333-exec-8] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 02:11:43.208 [http-nio-3333-exec-8] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 02:12:09.032 [http-nio-3333-exec-10] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 02:12:09.033 [http-nio-3333-exec-10] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 02:16:28.850 [http-nio-3333-exec-2] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 02:16:28.851 [http-nio-3333-exec-2] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 02:16:52.095 [http-nio-3333-exec-4] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 02:16:52.096 [http-nio-3333-exec-4] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 02:17:29.925 [http-nio-3333-exec-6] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 02:17:29.926 [http-nio-3333-exec-6] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 02:17:53.344 [http-nio-3333-exec-8] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 02:17:53.345 [http-nio-3333-exec-8] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 02:20:12.586 [http-nio-3333-exec-10] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 02:20:12.587 [http-nio-3333-exec-10] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 02:25:46.014 [http-nio-3333-exec-2] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 02:25:46.015 [http-nio-3333-exec-2] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 02:29:33.964 [http-nio-3333-exec-4] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 02:29:33.965 [http-nio-3333-exec-4] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 02:29:47.686 [http-nio-3333-exec-6] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件开始上传-----id为a927961c84bb4e74b833ceb35a63a0ba
+2021-11-06 02:29:47.688 [http-nio-3333-exec-6] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件上传结束-----id为a927961c84bb4e74b833ceb35a63a0ba
+2021-11-06 02:59:01.083 [http-nio-3333-exec-1] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件开始上传-----id为57e4a9a344fd46d0b7524c67363ce10c
+2021-11-06 02:59:01.085 [http-nio-3333-exec-1] INFO  i.j.f.service.impl.FileMetadataServiceImpl - 文件上传结束-----id为57e4a9a344fd46d0b7524c67363ce10c
+2021-11-06 02:59:13.428 [http-nio-3333-exec-3] INFO  icu.junyao.fileservice.util.FileUtils - 文件开始下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
+2021-11-06 02:59:13.429 [http-nio-3333-exec-3] INFO  icu.junyao.fileservice.util.FileUtils - 文件结束下载-----id为83e2d1b0faae4c74a3b8590f76898dbb
