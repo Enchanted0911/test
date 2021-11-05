@@ -189,6 +189,13 @@ public class FileClient {
         }
     }
 
+    /**
+     * 根据文件id获取文件元数据
+     *
+     * @param targetUrl 服务器url
+     * @param uuid 文件id
+     * @return 文件元数据json字符串
+     */
     public static String fetchFileMetadata(String targetUrl, String uuid) {
         HttpURLConnection conn = null;
         BufferedReader br = null;
